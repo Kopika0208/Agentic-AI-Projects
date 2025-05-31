@@ -1,12 +1,6 @@
----
-title: automated_stock_selector
-app_file: app.py
-sdk: gradio
-sdk_version: 5.29.0
----
 # AutomatedStockSelector Crew
 
-Welcome to the AutomatedStockSelector Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Automated Stock Selector is an intelligent agentic system built with CrewAI [crewAI](https://crewai.com, designed to autonomously identify and evaluate trending companies for investment. It uses a modular crew of specialized agents—Trending Company Finder, Financial Researcher, and Stock Picker—that collaborate in a hierarchical process. The agents rely on tools like SerperDevTool (Serper API) for web searching for real-time search insights and generate structured analysis using pydantic models. The workflow includes identifying trending stocks, conducting market and financial research, and ultimately recommending the most promising investment opportunity for a given sector—all orchestrated through YAML-based configurations for flexibility and scalability.
 
 ## Installation
 
