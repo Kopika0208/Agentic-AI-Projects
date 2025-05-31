@@ -1,4 +1,4 @@
-# AutomatedStockSelector Crew
+# Automated Stock Selector – AI-Powered Stock Picking Crew
 
 Automated Stock Selector is an intelligent agentic system built with CrewAI [crewAI](https://crewai.com, designed to autonomously identify and evaluate trending companies for investment. It uses a modular crew of specialized agents—Trending Company Finder, Financial Researcher, and Stock Picker—that collaborate in a hierarchical process. The agents rely on tools like SerperDevTool (Serper API) for web searching for real-time search insights and generate structured analysis using pydantic models. The workflow includes identifying trending stocks, conducting market and financial research, and ultimately recommending the most promising investment opportunity for a given sector—all orchestrated through YAML-based configurations for flexibility and scalability.
 
