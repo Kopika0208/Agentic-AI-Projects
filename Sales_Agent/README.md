@@ -7,10 +7,10 @@ A fully autonomous AI Sales Agent system that uses multiple personas to generate
 - Three distinct sales agent tools to generate different email styles (formal, casual, witty)
 - Manager agent autonomously evaluates and selects the best email
 - Separate agents for subject line and HTML formatting
-- Sends email via Gmail SMTP or SendGrid
+- Sends email via SendGrid using SendGrid API
 - Designed for agentic workflows and autonomy
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.12
 - Google Gemini (via `google.generativeai`) for content generation
