@@ -1,6 +1,11 @@
-# EngineeringCrew Crew
+# Engineering Crew 
 
-Welcome to the EngineeringCrew Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+EngineeringCrew is a modular, agentic engineering system built with CrewAI, designed to collaboratively design, develop, and test software solutions in an autonomous, production-like environment. It leverages a crew of specialized agents—Engineering Lead, Backend Engineer, Frontend Engineer, and Test Engineer—each assigned well-defined tasks in a sequential pipeline to simulate an agile development workflow.
+
+These agents are configured using YAML files for both roles and responsibilities (agents.yaml) and project deliverables (tasks.yaml), enabling flexibility and easy scaling. The backend and test engineers are equipped with secure code execution capabilities (Docker sandboxed) for safe and automated code generation and testing.
+
+The crew executes a series of tasks—Design Task, Code Task, Frontend Task, and Test Task—to move from planning to implementation and validation. Orchestrated through CrewAI’s @CrewBase framework, this system exemplifies structured collaboration among autonomous agents, supporting reproducible and auditable software engineering pipelines ideal for AI-driven development projects.
+
 
 ## Installation
 
