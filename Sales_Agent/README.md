@@ -19,16 +19,8 @@ A fully autonomous AI Sales Agent system that uses multiple personas to generate
 
 ## How It Works
 
-1. Three AI "tools" generate email variants for a given product.
+1. Three AI agent "tools" generate email variants for a given product.
 2. The Manager Agent tries each tool at least once, judges their outputs, and selects the best email.
 3. A Subject Line Agent creates a compelling subject.
 4. An HTML Formatter Agent styles the email body.
-5. The final email is sent via SMTP or SendGrid.
-
-## Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/sales-agent-ai.git
-cd sales-agent-ai
+5. The final email is sent via SendGrid.
